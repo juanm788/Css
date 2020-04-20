@@ -1,0 +1,298 @@
+body{
+	font-family: 'Indie Flower', cursive;
+	margin: 0px;
+}
+p{
+	font-family:verdana;
+}
+a{
+  color:white;
+	font-family:verdana;
+	text-decoration:none;}
+header{
+		color:white;
+		border: gray 3px solid;}
+ul.horizontal li{
+			padding-bottom: 3vw;
+			display: block;
+			float:left;
+			padding: 48px 1vw 3vw;;
+		}
+		.contenido p{
+			font-size: 20px;
+			text-align: left;
+		}
+		.principal{
+			background-image: url("https://www.xtrafondos.com/wallpapers/playa-449.jpg");
+			height: 450px;
+			color:white;
+			margin-top: 0px;
+			border: gray 5px solid;
+		}
+@media all and (min-width:700px){
+
+	header{
+		padding-bottom: 0vw;
+		background: #ff8585;
+		text-align:right;
+		font-size: 24px;
+		column-count:2;
+	}
+	footer{
+		column-count:2;
+	}
+
+	img{
+		width: 300px;
+		border-radius:20%;
+		margin-bottom: : 100px;
+	}
+	a{
+	  font-size: 22px;
+	}
+
+	.principal h2{
+		font-size: 35px;
+	}
+	.contenido h2{
+		font-size: 70px;
+		text-align: center;
+	}
+	.cuadro{
+	  border-radius: 5vh;
+	  margin-left: 215px;
+	  margin-top: 200px;
+		padding: 2vh 1vw;
+	  text-align: center;
+	  background-color:rgba(235,243,111,0.3); /* rgbA */
+	  width:720px;
+	  height:160px;
+	  position:absolute;
+		top: 30px;
+		font-size: 20px;
+		column-count:1;
+	}
+	.contenido{
+		border: gray 3px solid;
+		column-count:3;
+	}
+	.imagen-principal{
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	.imagen-principal:hover{
+		-webkit-filter: saturate(3);
+		filter: saturate(3);
+	}
+	.imagen-secundaria:hover{
+		-webkit-filter: saturate(3);
+		filter: saturate(3);
+	}
+
+	.parque{
+		background-color:#E0F2F7;
+	}
+	.rio{
+		background-color:#D8CEF6;
+	}
+	.informacion{
+		margin-top: 50px;
+		text-align: center;
+		background-color:#f5f3f1;
+		border:#d1d1d1 2px solid;
+		box-shadow: 0 1px 1px rgb(170, 169, 169,10)inset, 0 0 8px rgba(170, 169, 169, 20);
+	}
+	.contacto{
+		margin-top: 700px;
+		margin-left: 200px;
+		border-radius: 5vh;
+		text-align: center;
+		background: -moz-linear-gradient(left, rgba(248,181,0,1) 0%, rgba(248,181,0,1) 10%, rgba(251,223,147,1) 22%, rgba(252,234,187,1) 54%, rgba(252,205,77,1) 90%, rgba(252,205,77,1) 100%);
+		width:250px;
+		height:360px;
+		box-shadow: 0 1px 1px rgb(170, 169, 169,10)inset, 0 0 8px rgba(170, 169, 169, 10);
+		background-color:#ffffc9;
+	}
+	.contacto h3{
+		font-family: ARIAL;
+		font-size: 20px;
+	}
+	.contacto p{
+		font-family: cursive;
+		font-size: 15px;
+	}
+
+}
+@media all and (max-width: 700px) and (min-width:480px) {
+header {
+	padding-bottom: 0vw;
+	background: #ff8588;
+	text-align:right;
+	font-size: 16px;
+	column-count:2;
+}
+footer{
+	column-count:2;
+}
+ul.horizontal li{
+	padding: 40px 3vw 3vw;;
+}
+img{
+	width: 250px;
+	border-radius:20%;
+	margin-bottom: : 100px;
+}
+a{
+  font-size: 13px;
+}
+.principal h2{
+	font-size: 20px;
+}
+.contenido h2{
+	font-size: 70px;
+	text-align: center;
+}
+.cuadro{
+  border-radius: 5vh;
+  margin-left: 100px;
+  margin-top: 230px;
+	padding: 2vh 1vw;
+  text-align: center;
+  background-color:rgba(235,243,111,0.3); /* rgbA */
+  width:420px;
+  height:120px;
+  position:absolute;
+	top: 30px;
+	font-size: 10px;
+	column-count:1;
+}
+.contenido{
+	border: gray 3px solid;
+	column-count:2;
+}
+.imagen-principal{
+	display: none;
+
+}
+.imagen-secundaria:hover{
+	-webkit-filter: saturate(3);
+ 	filter: saturate(3);
+
+}
+.parque{
+	background-color:#E0F2F7;
+}
+.rio{
+	background-color:#D8CEF6;
+}
+.informacion{
+	margin-top: 50px;
+	text-align: center;
+	background-color:#f5f3f1;
+	border:#d1d1d1 2px solid;
+	box-shadow: 0 1px 1px rgb(170, 169, 169,10)inset, 0 0 8px rgba(170, 169, 169, 20)
+}
+.contacto{
+	margin-top: 250px;
+	border-radius: 5vh;
+	text-align: center;
+	background: -moz-linear-gradient(left, rgba(248,181,0,1) 0%, rgba(248,181,0,1) 10%, rgba(251,223,147,1) 22%, rgba(252,234,187,1) 54%, rgba(252,205,77,1) 90%, rgba(252,205,77,1) 100%);
+	width:250px;
+	height:360px;
+	box-shadow: 0 1px 1px rgb(170, 169, 169,10)inset, 0 0 8px rgba(170, 169, 169, 10);
+	background-color:#ffffc9;
+}
+.contacto h3{
+	font-family: ARIAL;
+	font-size: 20px;
+}
+.contacto p{
+	font-family: cursive;
+	font-size: 15px;
+}
+}
+@media all and (max-width: 480px) {
+
+	header {
+		padding-bottom: 20vw;
+		background: #ff8590;
+		text-align: center;
+		font-size: 12px;
+	}
+	ul.horizontal li{
+		padding: 0px 3vw;
+		column-count:1;
+	}
+	img{
+		width: 200px;
+		border-radius:20%;
+	}
+	a{
+	  font-size: 13px;
+	}
+
+	.principal h2{
+		font-size: 20px;
+	}
+	.contenido h2{
+		font-size: 40px;
+	}
+	.cuadro{
+	  border-radius: 5vh;
+	  margin-left: 3px;
+	  margin-top: 270px;
+		padding: 2vh 1vw;
+	  text-align: center;
+	  background-color:rgba(235,243,111,0.3); /* rgbA */
+	  width:220px;
+	  height:120px;
+	  position:absolute;
+		top: 30px;
+		font-size: 10px;
+	}
+	.contenido{
+		border: gray 3px solid;
+		text-align: center;
+		column-count:1;
+
+	}
+	.imagen-principal{
+		display: none;
+	}
+	.imagen-secundaria:hover{
+		-webkit-filter: saturate(3);
+	 	filter: saturate(3);
+
+	}
+	.parque{
+		background-color:#E0F2F7;
+	}
+	.rio{
+		background-color:#D8CEF6;
+	}
+	.informacion{
+		margin-top: 0px;
+		margin-bottom: -15px;
+		text-align: center;
+		background-color:#f5f3f1;
+		border:#d1d1d1 2px solid;
+		box-shadow: 0 1px 1px rgb(170, 169, 169,10)inset, 0 0 8px rgba(170, 169, 169, 20)
+	}
+	.contacto{
+		border-radius: 5vh;
+		text-align: center;
+		background: -moz-linear-gradient(left, rgba(248,181,0,1) 0%, rgba(248,181,0,1) 10%, rgba(251,223,147,1) 22%, rgba(252,234,187,1) 54%, rgba(252,205,77,1) 90%, rgba(252,205,77,1) 100%);
+		width:250px;
+		height:360px;
+		box-shadow: 0 1px 1px rgb(170, 169, 169,10)inset, 0 0 8px rgba(170, 169, 169, 10);
+		background-color:#ffffc9;
+	}
+.contacto h3{
+		font-family: ARIAL;
+		font-size: 20px;
+	}
+		.contacto p{
+		font-family: cursive;
+		font-size: 15px;
+	}
+}
